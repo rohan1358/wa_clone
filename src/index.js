@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Login from './page/auth/Login'
 import reportWebVitals from './reportWebVitals';
-
+import Router from './router/Router'
+import { DataConsumer, DataContext, DataUser } from './utils/index'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DataUser>
+      <Router />
+
+    </DataUser>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

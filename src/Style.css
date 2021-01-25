@@ -1,0 +1,144 @@
+*:focus {
+  outline: none;
+  border: none;
+}
+
+div.child {
+  height: 100%;
+  z-index: 2;
+}
+img.icon-navbar {
+  margin-left: 10px;
+}
+
+label.icon-navbar {
+  margin-left: 100px;
+}
+
+.content-wa {
+  margin-left: 30%;
+}
+
+@media screen and (max-width: 500px) {
+  .content-wa {
+    margin-left: 167px;
+  }
+}
+
+div.inp-area {
+  z-index: 1;
+  width: 70%;
+  margin-left: 30%;
+}
+form {
+  background-color:  #f1f1f1;
+  transition: all .3s ease-in-out;
+}
+form:focus-within {
+  background: white;
+  transition: all .3s ease-in-out;
+}
+p.last-message {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.chatArea {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  margin-top: 51px;
+  margin-bottom: 51px;
+}
+.nav-content {
+  margin-left: 30%;
+  z-index: 4;
+} 
+@media screen and (max-width: 521px) {
+  .nav-content {
+    margin-left: 39%;
+    z-index: 4;
+  } 
+}
+.nav-list-chat {
+  width: 30%;
+  z-index: 900;
+  
+}
+button.sidebarsnya{
+  background: none;
+  border: none;
+}
+button.sidebarsnya:focus{
+  outline: none;
+  background-color: whitesmoke;
+}
+.new-chat{
+  z-index: 2000;
+  width: 0px;
+  min-width: 0px;
+  transition: 1s;
+}
+nav#main7 {
+  width: 0px;
+  min-width: 0px;
+
+  transition: 1s;
+  min-height: 74px;
+  background-color: #00bfa5;
+  overflow-x: hidden;
+  
+}
+div a {
+  color: white;
+}
+nav#menu4 {
+  min-width: 203px;
+  z-index: 105;
+}
+div#main3{
+  min-width: 202px;
+}
+
+.dropbtn {
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  /* background-color: #2980B9; */
+}
+
+.dropdowns {
+  position: relative;
+  display: inline-block;
+  transition: 5s
+
+}
+
+.dropdown-contents {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: 5s
+}
+
+.dropdown-contents a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: 5s;
+}
+
+.dropdowns a:hover {background-color: #ddd;}
+
+.show {display: block; z-index: 100; }
+
+.list-group {
+  
+}
