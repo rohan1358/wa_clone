@@ -42,6 +42,7 @@ const CustomMenu = React.forwardRef(
 );
 
 const RenderDropdown = ({ icon, menu, style }) => {
+  console.log(icon, menu);
   return (
     <Dropdown>
       <Dropdown.Toggle as={CustomToggle} id="dropdown-custom-components">
@@ -52,7 +53,7 @@ const RenderDropdown = ({ icon, menu, style }) => {
         {Array.isArray(menu) ? (
           menu.map((data, index) => {
             return (
-              <Dropdown.Item key={index} onClick={() => data.func} eventKey="1">
+              <Dropdown.Item key={index} onClick={data.func} eventKey="1">
                 {data.name}
               </Dropdown.Item>
             );

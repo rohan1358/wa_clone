@@ -5,7 +5,7 @@ export const DataConsumer = DataContext.Consumer;
 export class DataUser extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { user: [], chat: [], newChat: null };
+    this.state = { user: [], chat: [], newChat: null, friendlist: [] };
   }
 
   AddUser = (data) => {
